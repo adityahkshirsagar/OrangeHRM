@@ -16,7 +16,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.9.0</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.github.pityka</groupId>
@@ -55,6 +55,11 @@
 		    <version>1.18.32</version>
 		    <scope>provided</scope>
 		</dependency>
+		<dependency>
+	            <groupId>org.seleniumhq.selenium</groupId>
+	            <artifactId>selenium-remote-driver</artifactId>
+	            <version>3.141.59</version>
+        	</dependency>
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
